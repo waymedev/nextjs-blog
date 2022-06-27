@@ -8,10 +8,7 @@ const BackHome = () => {
     <div className="inline-block py-0.5 px-2 text-green-800 font-semibold text-2xl mt-12 underline bg-gray-100">
       <Link href="/">
         <a className="group relative">
-          <code className="group-hover:opacity-0 transition-all">cd ~</code>
-          <code className="group-hover:opacity-100 opacity-0 absolute left-0 transition-all">
-            ← 🏠
-          </code>
+          <code className=" transition-all">cd ~</code>
         </a>
       </Link>
     </div>
