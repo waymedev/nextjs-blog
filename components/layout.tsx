@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export const siteTitle = "pengx17";
+export const siteTitle = "3attaE";
 
 const BackHome = () => {
   return (
