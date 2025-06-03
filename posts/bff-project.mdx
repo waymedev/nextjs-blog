@@ -1,6 +1,6 @@
 ---
 title: "BFF 项目设计"
-date: "2022-07-01"
+date: "2023-07-01"
 ---
 
 参加工作的头一年，主要在电商业务下负责 BFF 层项目的开发。接触了电商中比较核心的交易链路，平时业务繁多，淡季的 QPS 也有几百左右。
@@ -33,7 +33,7 @@ BFF（Backend for Frontend) 一种在微服务架构下衍生的设计模式，�
 
 ![sentinel-resource.png](https://vip2.loli.io/2022/07/01/gSrCcbeJ4DFusja.png)
 
-将每个三方接口封装为 Sentinel 资源，方便 Sentinel 管理。搭配 Nacos 动态配置处理降级逻辑，一般是返回缓存内存。
+将每个三方接口封装为 Sentinel 资源，方便 Sentinel 管理。搭配 Nacos 动态配置处理降级逻辑。
 
 ### Nacos 动态配置降级熔断
 
